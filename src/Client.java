@@ -5,6 +5,14 @@ public class Client {
     public static void main(String args[]){
         testTriangle();
         testDiamond();
+        testFizzBuzz();
+    }
+
+    private static void testFizzBuzz() {
+        System.out.println("-------test FizzBuzz Exercise-------");
+        FizzBuzz fizzBuzzTest = new FizzBuzz();
+        System.out.println("test the method FizzBuzzCount");
+        fizzBuzzTest.FizzBuzzCount();
     }
 
     private static void testDiamond() {
