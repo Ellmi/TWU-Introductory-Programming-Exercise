@@ -6,6 +6,14 @@ public class Client {
         testTriangle();
         testDiamond();
         testFizzBuzz();
+        testPrimeFacors();
+    }
+
+    private static void testPrimeFacors() {
+        System.out.println("-------test Prime Factors Exercise-------");
+        PrimeFactors primeFactorsTest = new PrimeFactors();
+        System.out.println("test the method generate");
+        primeFactorsTest.generate(30);
     }
 
     private static void testFizzBuzz() {
